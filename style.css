@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.listyle-none {
+    list-style: none;
+}
+
+.txtdec-none {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/*HEADER*/
+
+header {
+    background: url(wideview.png) no-repeat;
+    background-size: cover;
+    padding: 1rem 5rem;
+    height: 8.21rem;
+    position: sticky;
+    top: 0;
+}
+
+header .main-title {
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+header .main-menu {
+    gap: 1rem;
+    justify-content: center;
+}
+
+header nav .main-menu li a{
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    header .main-menu li a {
+        font-size: 0.9rem;
+    }
+}
+/*HEADER*/
+
+/*SECTİON*/
+
+#gap {
+
+}
+
+#wideview{
+    height: 78.1vh;
+    background: url(wideview.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+/*SECTİON*/
